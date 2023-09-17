@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(80, 82, 104);
+    color: rgb(215, 215, 218);
+    font-size: 20px;
+}
+
+.projects, .nav {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav:link {
+    text-decoration:none;
+    color: rgb(215, 215, 218);
+}
+.nav:visited {
+    text-decoration: none;
+    color: rgb(215, 215, 218);
+}
+.nav:hover {
+    text-decoration:none;
+    color: rgb(38, 38, 192);
+}
+.nav:active {
+    text-decoration: none;
+}
+
+a {
+    color: rgb(215, 215, 218);
+}
+a:hover {
+    color: rgb(38, 38, 192);
+}
