@@ -1,7 +1,8 @@
 body {
     background-color: rgb(80, 82, 104);
     color: rgb(215, 215, 218);
-    font-size: 20px;
+    font-size: 1.5rem;
+    font-family: "open-sans", sans-serif;
 }
 
 .projects, .nav {
@@ -12,19 +13,19 @@ h1 {
     text-align: center;
 }
 
-.nav:link {
+.nav:link, .projects:link {
     text-decoration:none;
     color: rgb(215, 215, 218);
 }
-.nav:visited {
+.nav:visited, .projects:visited {
     text-decoration: none;
     color: rgb(215, 215, 218);
 }
-.nav:hover {
+.nav:hover, .projects:hover {
     text-decoration:none;
     color: rgb(38, 38, 192);
 }
-.nav:active {
+.nav:active, .projects:active {
     text-decoration: none;
 }
 
@@ -34,3 +35,8 @@ a {
 a:hover {
     color: rgb(38, 38, 192);
 }
+
+table,tr,th,td {
+    padding: 1rem;
+}
+
