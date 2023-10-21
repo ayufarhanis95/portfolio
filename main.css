@@ -7,19 +7,28 @@
 }
 
 body {
-    background-color: rgb(80, 82, 104);
+    background-image: linear-gradient(rgb(101, 107, 163),rgb(13, 16, 66));
     color: rgb(215, 215, 218);
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.index {
+    display: flex;
+    
 }
 
 .projects, .nav {
     display: block;
 }
 
-h1 {
+h1:not(.side h1) {
     text-align: center;
 }
+
+
 
 .nav:link, .projects:link {
     text-decoration:none;
@@ -48,4 +57,53 @@ table,tr,th,td {
     padding: 1rem;
 }
 
+.side {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+}
 
+li {
+    list-style-position: inside;
+}
+
+main {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+    height: 100vh;
+    padding: 50px;
+    line-height: 1.5em;
+    
+}
+
+
+
+h2 {
+    padding-bottom: 20px;
+    
+}
+
+section {
+    padding-bottom: 200px;
+}
+
+div {
+    padding-top: 50px;
+}
+
+#nav {
+    line-height: 1.5em;
+}
+
+.archive {
+    height: 100vh;
+    padding: 50px;
+}
+
+.archive table {
+    margin-left: auto;
+    margin-right: auto;
+}
