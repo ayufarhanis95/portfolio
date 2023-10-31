@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 :root {
     --hover-color: rgb(135, 135, 196);
     --link-color: rgb(215, 215, 218);
@@ -76,11 +78,6 @@ main h2 {
 }
 
 
-section {
-    padding-bottom: 200px;
-}
-
-
 
 #nav {
     line-height: 1.5em;
@@ -130,11 +127,18 @@ main {
     
 }
 
+section {
+    padding-bottom: 200px;
+}
+
 }
 
 
 
 @media only screen and (max-width: 768px) {
+
+
+
 .side h1, .side h2, .side a {
     text-align: center;
 }
@@ -147,7 +151,9 @@ main {
     width: 100%;
 }
 
-
+.side {
+    height: 30%;
+}
 
 
 div {
@@ -163,15 +169,20 @@ body {
 }
 
 
+
 main {
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-padding-top: 50px;
-    height: 100vh;
+    height: 70%;
     padding: 50px;
     line-height: 1.5em;
     position: fixed; 
     
+}
+
+section {
+    padding-bottom: 50px;
 }
 }
 
