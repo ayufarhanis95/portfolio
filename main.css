@@ -5,11 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+    --hover-color: rgb(135, 135, 196);
+    --link-color: rgb(215, 215, 218);
+}
 body {
     background-image: linear-gradient(rgb(101, 107, 163),rgb(13, 16, 66));
-    color: rgb(215, 215, 218);
-    font-size: 1.5rem;
+    color: var(--link-color);
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     
     
@@ -30,27 +33,27 @@ h1:not(.side h1) {
 
 
 
-.nav:link, .projects:link {
+.nav:link, .projects:link  {
     text-decoration:none;
-    color: rgb(215, 215, 218);
+    color: var(--link-color);
 }
 .nav:visited, .projects:visited {
     text-decoration: none;
-    color: rgb(215, 215, 218);
+    color: var(--link-color);
 }
 .nav:hover, .projects:hover {
     text-decoration:none;
-    color: rgb(38, 38, 192);
+    color: var(--hover-color);
 }
 .nav:active, .projects:active {
     text-decoration: none;
 }
 
 a {
-    color: rgb(215, 215, 218);
+    color: var(--link-color);
 }
 a:hover {
-    color: rgb(38, 38, 192);
+    color: var(--hover-color);
 }
 
 table,tr,th,td {
