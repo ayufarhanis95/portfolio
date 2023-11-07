@@ -143,6 +143,9 @@ section {
     text-align: center;
 }
 
+.side a:active {
+    background-color: blue;
+}
 
 
 .side .icon {
@@ -152,7 +155,8 @@ section {
 }
 
 .side {
-    height: 30%;
+    height: 40%;
+    padding: 10px;
 }
 
 
@@ -174,7 +178,7 @@ main {
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-padding-top: 50px;
-    height: 70%;
+    height: 60%;
     padding: 50px;
     line-height: 1.5em;
     position: fixed; 
