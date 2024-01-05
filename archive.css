@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;    
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+html::-webkit-scrollbar {
+    display:none;
+}
+
+:root {
+    --hover-color: rgb(135, 135, 196);
+    --link-color: rgb(215, 215, 218);
+    --box-hover: rgb(41, 53, 156);
+}
+
+body {
+    background-image: linear-gradient(rgb(101, 107, 163),rgb(13, 16, 66));
+    color: var(--link-color);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+h2 {
+   font-size: 1.5rem;
+    padding-bottom: 20px;;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+div {
+    padding-bottom: 20px;
+}
+
+.projects figure {
+    display: flex;
+    gap: 20px;
+
+}
+
+.projects:link  {
+    text-decoration:none;
+    color: var(--link-color);
+}
+.projects:visited {
+    text-decoration: none;
+    color: var(--link-color);
+}
+.projects:hover {
+    text-decoration:none;
+    color: var(--hover-color);
+}
+.projects:active {
+    text-decoration: none;
+}
+
+a {
+    color: var(--link-color);
+}
+a:hover {
+    color: var(--hover-color);
+}
+.hover{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.hover:hover {
+    border: 2px solid var(--box-hover);
+    background-color: var(--box-hover);
+    border-radius: 10px;   
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100px;
+    max-height: 150px;
+}
+
