@@ -4,24 +4,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
+    
 }
 
-
+/* colors */
 :root {
     --hover-color: rgb(135, 135, 196);
     --link-color: rgb(215, 215, 218);
     --box-hover: rgb(41, 53, 156);
 }
+
 body {
     background-image: linear-gradient(rgb(101, 107, 163),rgb(13, 16, 66));
     color: var(--link-color);
-
     font-family: 'Roboto', sans-serif;
-
-    
-    
+    height: 100vh;
 }
-
 
 
 .projects, .nav, .archive {
@@ -32,8 +31,7 @@ h1:not(.side h1) {
     text-align: center;
 }
 
-
-
+/* css styling for links */
 .nav:link, .projects:link  {
     text-decoration:none;
     color: var(--link-color);
@@ -86,7 +84,7 @@ main h2 {
 }
 
 .archive {
-    height: 100vh;
+
     padding: 50px;
 }
 
@@ -112,11 +110,20 @@ main h2 {
     
 }
 
+img {
+    border-radius: 10px;
+    max-width: 100px;
+    max-height: 150px;
+}
+
+/* Css styling only for website */
 @media only screen and (min-width: 768px) {
 
     body {
             font-size: 20px;
     }
+
+    
     .index {
         display: flex;    
     }
@@ -153,11 +160,8 @@ section {
 }
 
 
-
-@media only screen and (max-width: 768px) {
-
-
-
+/* Css styling for mobile */
+@media only screen and (max-width: 766px) {
 .side h1, .side h2, .side a {
     text-align: center;
 }
@@ -165,7 +169,6 @@ section {
 .side a:active {
     background-color: rgb(44, 50, 153);
 }
-
 
 .side .icon {
     display: block;
@@ -185,12 +188,9 @@ div {
 
 body {
     overflow: hidden;
-    height: 100vh;
     font-size: 15px;
-
-    
+    height: 100vh;
 }
-
 
 
 main {
@@ -207,6 +207,7 @@ main {
 section {
     padding-bottom: 50px;
 }
+
 
 
 }
