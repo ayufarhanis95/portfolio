@@ -23,7 +23,7 @@ body {
 }
 
 
-.projects, .nav, .archive {
+.projects, .nav {
     display: block;
 }
 
@@ -55,19 +55,6 @@ a:hover {
     color: var(--hover-color);
 }
 
-
-table,tr,th,td {
-    padding: 1rem;
-}
-
-
-
-li {
-    list-style-position: inside;
-}
-
-
-
 main::-webkit-scrollbar {
     display:none;
 }
@@ -81,16 +68,6 @@ main h2 {
 
 #nav {
     line-height: 1.5em;
-}
-
-.archive {
-
-    padding: 50px;
-}
-
-.archive table {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .projects figure {
@@ -139,9 +116,7 @@ img {
     padding-bottom: 20px;
     
 }
-    div:(.passenger) {
-    padding-top: 50px;
-}
+
 
 main {
     overflow-y: scroll;
