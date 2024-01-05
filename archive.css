@@ -45,6 +45,8 @@ div {
     padding-bottom: 20px;
 }
 
+
+
 .projects figure {
     display: flex;
     gap: 20px;
@@ -89,3 +91,10 @@ img {
     max-height: 150px;
 }
 
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
